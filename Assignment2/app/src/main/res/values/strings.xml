@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="register_text">Please provide your basic details</string>
+    <string name="welcome">Welcome, </string>
+    <string name="log_in">Log in to your </string>
+    <string name="account">account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="register_now">Don\'t have an account? </string>
+    <string name="register">REGISTER</string>
+    <string name="full_name">Full name</string>
+    <string name="sign_in"><u>Sign in with different account</u></string>
+    <string name="submit_button">submit</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="agree">I agree to the </string>
+    <string name="otp">OTP Verification</string>
+    <string name="message">Enter the verification code sent to your number via sms</string>
+    <string name="resend_button">resend</string>
+</resources>

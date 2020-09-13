@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_view"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/medium"
+    android:orientation="vertical"
+    android:background="@drawable/all_textview_title"
+    >
+    <TextView
+        android:id="@+id/tv_item_student_detail_grid_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the student"
+        android:textSize="@dimen/tv_medium_size"
+        android:textColor="@color/green"/>
+    <TextView
+        android:id="@+id/tv_item_student_detail_grid_class"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/tv_medium_size"
+        android:text="Class of the student"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"/>
+</LinearLayout>

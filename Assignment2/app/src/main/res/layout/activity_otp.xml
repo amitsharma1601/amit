@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.OtpActivity">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginRight="@dimen/right_margin"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/otp"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/title_size" />
+
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/message"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/h2_size" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp">
+
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="@dimen/digit_edittext"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:focusable="true"
+            android:focusedByDefault="true"
+            android:nextFocusForward="@id/et2"
+            android:maxLength="1"
+            android:inputType="number"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="@dimen/digit_edittext"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:nextFocusForward="@id/et3"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:hint="5"
+            android:maxLength="1"
+            android:inputType="number"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="@dimen/digit_edittext"
+            android:nextFocusForward="@id/et4"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:hint="5"
+            android:inputType="number"
+            android:textSize="@dimen/edit_text_size" />
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="@dimen/digit_edittext"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:hint="5"
+            android:inputType="number"
+            android:textSize="@dimen/edit_text_size" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/left_margin"
+        android:layout_marginRight="@dimen/left_margin">
+
+        <Button
+            android:id="@+id/resend_button"
+            android:background="@drawable/button_drawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/resend_button"
+            />
+
+        <Button
+            android:id="@+id/submit_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit_button"
+            android:layout_weight="2"
+            android:textColor="@color/white"
+            android:text="@string/submit_button" />
+    </LinearLayout>
+
+</LinearLayout>

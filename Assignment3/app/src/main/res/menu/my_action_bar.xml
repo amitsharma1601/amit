@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/action_sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item android:id="@+id/name_sort" android:title="@string/sort_by_name"></item>
+            <item android:id="@+id/roll_sort" android:title="@string/sort_by_roll"></item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_view"
+        android:title="@string/action_view"
+        android:icon="@drawable/ic_gridview"
+        app:showAsAction="always"
+        >
+    </item>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_title_size">40sp</dimen>
+    <dimen name="tv_medium_size">20sp</dimen>
+    <dimen name="margin_bottom">5dp</dimen>
+    <dimen name="edit_text_height">60dp</dimen>
+    <dimen name="large">20dp</dimen>
+    <dimen name="medium">10dp</dimen>
+</resources>

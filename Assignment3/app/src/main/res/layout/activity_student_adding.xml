@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activities.StudentAddingActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        app:hintEnabled="false" >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_studentadding_student_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="@string/all_edittext_name"
+            android:textSize="@dimen/tv_medium_size"
+            android:background="@drawable/all_button_shape"
+            android:textColor="@color/green"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginTop="5dp"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/et_studentadding_student_class"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:maxLines="1"
+            android:inputType="number"
+            android:textSize="@dimen/tv_medium_size"
+            android:hint="@string/all_edittext_class"
+            android:background="@drawable/all_button_shape"
+            android:textColor="@color/green"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        app:hintEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/et_studentadding_student_rollno"
+            android:textSize="@dimen/tv_medium_size"
+            android:layout_height="@dimen/edit_text_height"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="@string/all_edittext_rollno"
+            android:background="@drawable/all_button_shape"
+            android:textColor="@color/green"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_studentadding_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_btn_submit"
+        android:layout_marginTop="@dimen/large"
+        android:layout_marginLeft="@dimen/large"
+        android:layout_marginRight="@dimen/large"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

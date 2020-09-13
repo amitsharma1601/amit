@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="left_margin">20dp</dimen>
+    <dimen name="right_margin">20dp</dimen>
+    <dimen name="mini_text_size">15sp</dimen>
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="h2_size">20sp</dimen>
+    <dimen name="digit_edittext">80dp</dimen>
+    <dimen name="edit_text_size">40sp</dimen>
+    <dimen name="margin_bottom">3dp</dimen>
+</resources>

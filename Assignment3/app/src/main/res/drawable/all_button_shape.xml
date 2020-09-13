@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--<layer-list xmlns:android ="http://schemas.android.com/apk/res/android">-->
+<!--&lt;!&ndash;    <item android:drawable="@drawable/button_shape"></item>&ndash;&gt;-->
+<!--    <item android:drawable="@drawable/button_states" />-->
+<!--</layer-list>-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="0"
+        android:endColor="@color/transparent"
+        android:startColor="@color/transparent" />
+        <stroke
+            android:width="2px"
+            android:color="@color/green" />
+</shape>
